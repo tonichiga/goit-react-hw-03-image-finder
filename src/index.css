@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#root {
+  position: relative;
+  padding-top: 40px;
+  width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+body.isOpen {
+  overflow-y: hidden;
+}
